@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "EIwM0gAy9V6IeJxNFK4qTzOEyoG0K/5Kq8yclnRwPTSB2hGLxOia0tW3oeGKbYD2ymEiWIjxRyMbZqH1xsg1Yg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jenkinvm\\myfirstaks\\myfirstaks\\myfirstaks.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jenkinvm\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512",
+    "C:\\Users\\jenkinvm\\.nuget\\packages\\microsoft.visualstudio.azure.kubernetes.tools.targets\\1.1.0\\microsoft.visualstudio.azure.kubernetes.tools.targets.1.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
