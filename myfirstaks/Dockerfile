@@ -4,10 +4,10 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /src
-COPY ["./myfirstaks.csproj", "myfirstaks/"]
+COPY ["myfirstaks.csproj", "./"]
 
-RUN dotnet restore "myfirstaks/myfirstaks.csproj"
-COPY . .
+RUN dotnet restore "myfirstaks.csproj"
+COPY . ./myfirstaks
 WORKDIR "/src/myfirstaks"
 RUN dotnet build "myfirstaks.csproj" -c Release -o /app/build
 
